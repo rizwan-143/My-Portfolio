@@ -240,9 +240,40 @@ header{
     .resume p{
         font-size: 13px !important;
     }
+
     
     .experience{
         margin-top: 30px;
+    }
+
+    .gitHUb-projects{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        background-image: url("bg_1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact-me{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .question-section ul li p{
+        font-size: 13px !important;
+    }
+
+    .question-section ul li button{
+        padding: 10px !important;
+    }
+
+    .social-icons ul li p{
+        font-size: 10px !important;
+    }
+
+    .footer{
+        padding-top: 50px !important;
+        padding-bottom: 20px;
     }
 }
 
@@ -326,6 +357,34 @@ header{
     .experience{
         margin-top: 30px;
     }
+
+
+    .gitHUb-projects{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        background-image: url("bg_1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact-me{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .question-section ul li p{
+        font-size: 13px !important;
+    }
+
+    .question-section ul li button{
+        padding: 10px !important;
+    }
+
+    .footer{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -405,8 +464,36 @@ header{
         font-size: 13px !important;
     }
 
+
+    .gitHUb-projects{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        background-image: url("bg_1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contact-me{
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
     .experience{
         margin-top: 30px;
+    }
+
+    .question-section ul li p{
+        font-size: 15px !important;
+    }
+
+    .question-section ul li button{
+        padding: 14px !important;
+    }
+
+
+    .footer{
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
 }
 

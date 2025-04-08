@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+header{
+    /* height: 100vh; */
+    padding-bottom: 50px;
+
+}
+
+.navbar{
+    background-color: aliceblue;
+    position: relative;
+    top: 20px;
+    width: 90%;
+    color: black;
+    background: rgb(177, 177, 138);
+    padding: 10px;
+   border-radius: 80px;
+}
+
+
+
+.bannerSectionContent{
+    margin-top: 100px;
+}
+
+.bannerSectionContent .text-warning{
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.bannerSectionContent p{
+    font-size: 55px !important;
+    font-weight: 900 !important;
+}
+
+.bannerSectionContent li{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.banner-buttons button{
+    margin-top: 20px;
+}
+
+.banner-buttons button:hover{
+    /* background-image: linear-gradient(to right red, yellow); */
+    background-image: linear-gradient(to right, rgb(177, 177, 138), yellow);
+  
+}
+
+
+
+
+
+.banner-image{
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    border: 0.5px solid gray;
+    border-radius: 50%;
+    background-image: url("WhatsApp\ Image\ 2025-04-07\ at\ 12.58.58\ PM.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.offcanvas-body ul li.nav-link:hover{
+ text-decoration: 3px underline #ffbd39;
+}
+.offcanvas-body ul li a.nav-items:hover{
+    color: #ffbd39;
+}
+
+
+
+.media img{
+    height: 150px;
+    width: 150px;
+}
+
+.media ul li{
+    font-size: 15px;
+}
+
+.about-me{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.about-me-content h3{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.about-me ul li{
+    font-size: 16px;
+}
+
+
+.resume{
+    padding-top: 70px;
+        padding-bottom: 30px;
+    background-color: black;
+    
+}
+
+.resume p{
+    font-size: 15px !important;
+}
+
+
+.experience{
+    margin-top: 80px;
+}
+
+.projecs{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.card .card-header img:hover{
+ transform: scale(1.1);
+ transition: all 0.5s;
+ cursor: pointer;
+}
+
+.card .card-body b:hover{
+    color: #ffbd39 !important;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.gitHUb-projects{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-image: url("bg_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contact-me{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.social-icons ul i:hover{
+    color: white !important;
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+
+.footer{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+
+
+@media  (max-width : 320px) {
+
+    header{
+        /* height: 100vh; */
+        padding-top: 0px;
+        padding-bottom: 30px;
+    
+    }
+
+    .bannerSectionContent{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bannerSectionContent .text-warning{
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    
+    .bannerSectionContent p{
+        font-size: 30px !important;
+        font-weight: 900 !important;
+    }
+    
+    .bannerSectionContent li{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .banner-buttons{
+        margin-top: 20px;
+    }
+    
+    .banner-image{
+        margin-top: 40px;
+       width: 300px;
+       height: 300px;
+        border: 0.5px solid gray;
+        border-radius: 50%;
+        background-image: url("WhatsApp\ Image\ 2025-04-07\ at\ 12.58.58\ PM.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: absolute; */
+    }
+
+    #banner-img{
+        position: absolute;
+    }
+
+
+
+    .media img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .media ul li{
+        font-size: 12px;
+    }
+
+    .about-me ul li{
+        font-size: 10px;
+    }
+
+    .resume{
+        padding-top: 10px;
+            padding-bottom: 10px;
+        background-color: black;
+        
+    }
+    .resume p{
+        font-size: 13px !important;
+    }
+    
+    .experience{
+        margin-top: 30px;
+    }
+}
+
+
+
+@media screen and (min-width: 320px )and (max-width: 375px) {
+    
+    
+    header{
+        /* height: 100vh; */
+        padding-top: 0px;
+        padding-bottom: 30px;
+    
+    }
+
+    .bannerSectionContent{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bannerSectionContent .text-warning{
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    
+    .bannerSectionContent p{
+        font-size: 30px !important;
+        font-weight: 900 !important;
+    }
+    
+    .bannerSectionContent li{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .banner-buttons{
+        margin-top: 20px;
+    }
+    
+    .banner-image{
+        margin-top: 40px;
+       width: 300px;
+       height: 300px;
+        border: 0.5px solid gray;
+        border-radius: 50%;
+        background-image: url("WhatsApp\ Image\ 2025-04-07\ at\ 12.58.58\ PM.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: absolute; */
+    }
+
+    #banner-img{
+        position: absolute;
+    }
+
+
+
+    .media img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .media ul li{
+        font-size: 12px;
+    }
+
+    .about-me ul li{
+        font-size: 10px;
+    }
+
+    .resume{
+        padding-top: 10px;
+            padding-bottom: 10px;
+        background-color: black;
+        
+    }
+    .resume p{
+        font-size: 13px !important;
+    }
+
+    .experience{
+        margin-top: 30px;
+    }
+}
+
+
+
+@media screen  and ( min-width: 375px ) and (max-width: 426px) {
+    
+    header{
+        /* height: 100vh; */
+        padding-top: 0px;
+        padding-bottom: 30px;
+    
+    }
+
+    .bannerSectionContent{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bannerSectionContent .text-warning{
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    
+    .bannerSectionContent p{
+        font-size: 30px !important;
+        font-weight: 900 !important;
+    }
+    
+    .bannerSectionContent li{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .banner-buttons{
+        margin-top: 20px;
+    }
+    
+    .banner-image{
+        margin-top: 40px;
+       width: 300px;
+       height: 300px;
+        border: 0.5px solid gray;
+        border-radius: 50%;
+        background-image: url("WhatsApp\ Image\ 2025-04-07\ at\ 12.58.58\ PM.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: absolute; */
+    }
+
+    #banner-img{
+        position: absolute;
+    }
+
+
+
+    .media img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .media ul li{
+        font-size: 12px;
+    }
+
+    .about-me ul li{
+        font-size: 10px;
+    }
+
+    .resume{
+        padding-top: 10px;
+            padding-bottom: 10px;
+        background-color: black;
+        
+    }
+
+    .resume p{
+        font-size: 13px !important;
+    }
+
+    .experience{
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and ( min-width: 426px ) and (max-width: 769px) {
+
+    
+    header{
+        /* height: 100vh; */
+        padding-top: 0px;
+        padding-bottom: 30px;
+    
+    }
+
+    .bannerSectionContent{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bannerSectionContent .text-warning{
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    
+    .bannerSectionContent p{
+        font-size: 30px !important;
+        font-weight: 900 !important;
+    }
+    
+    .bannerSectionContent li{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .banner-buttons{
+        margin-top: 20px;
+    }
+    
+    .banner-image{
+        margin-top: 40px;
+       width: 300px;
+       height: 300px;
+        border: 0.5px solid gray;
+        border-radius: 50%;
+        background-image: url("WhatsApp\ Image\ 2025-04-07\ at\ 12.58.58\ PM.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: absolute; */
+    }
+
+
+
+    .media img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .media ul li{
+        font-size: 12px;
+    }
+
+    .about-me ul li{
+        font-size: 13px;
+    }
+
+    .resume{
+        padding-top: 10px;
+            padding-bottom: 10px;
+        background-color: black;
+        
+    }
+
+    .resume p{
+        font-size: 13px !important;
+    }
+}
